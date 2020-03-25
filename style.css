@@ -1,0 +1,66 @@
+body {
+    width : 100%;
+    height : 100%;
+    margin : 0;
+}
+
+header {                                /*CSS concernant le titre et le menu de la page d'accueil */
+    display : flex;
+    flex-direction: column;
+}
+
+header h1 {
+    margin : auto;
+    font-family: "Belligerent", serif;
+    font-size: 70px;
+}
+
+header nav ul {
+    display : flex;
+    margin : auto;
+    justify-content: space-around;
+    padding : 0;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-top : 25px;
+    margin-right : 8px;
+    font-size: 30px;
+    font-family: "Belligerent", serif;
+    cursor: pointer;
+}
+
+
+#accueilVente {                     /*CSS concernant le container des produits de la page d'accueil*/
+    display : flex;
+    flex-direction: column;
+    border : 5px solid black;
+    height : 100%;
+ }                                   
+
+h2 {                                        
+    margin : auto;
+    font-size : 20px;
+}
+
+#productsContainer{
+    height : 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.products {
+    height : 270px;
+    width : 270px;
+    margin : 10px;
+    border : 1px solid black;
+}
+
+@font-face {
+    font-family: "Belligerent";
+    src: url("fonts/belligerent.ttf") format("truetype");
+   }
+   
